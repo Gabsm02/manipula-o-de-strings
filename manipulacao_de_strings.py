@@ -45,3 +45,7 @@ print(endereco.strip()) #"Rua das Flores, 123"
 endereco = "Rua das Flores, 123"
 print(endereco.split(" ")) #['Rua das Flores', ' 123']
 
+# replace -> Substitui uma string por outra
+endereco = "Rua das Flores, 123"
+print(endereco.replace(",", ":")) #Rua das Flores: 456
+
